@@ -153,7 +153,6 @@ function decrement() {
 	$("#time-left").html( timeLeft + " seconds");
 	if (timeLeft === 0) {
 		stopTimer();
-		userAns.length = 0;		
 
 	};
 };
